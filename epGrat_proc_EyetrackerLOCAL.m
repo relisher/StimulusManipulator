@@ -310,7 +310,7 @@ try
                 horizontalGaze = informationSplit{1};
                 verticalGaze = str2num(verticalGaze);
                 horizontalGaze = str2num(horizontalGaze);
-                horizontalGaze = ((horizontalGaze * ((ScreenPixX-stimPix)/200)) + (0.5 * stimPix)); % scale imageY position
+                horizontalGaze = (((horizontalGaze * 2) * ((ScreenPixX-stimPix)/200)) + (0.5 * stimPix)); % scale imageY position
                 verticalGaze = ScreenPixY - (verticalGaze * (ScreenPixY/150) + (0.5 * stimPix)); % scale imageX position
                 
                 try
