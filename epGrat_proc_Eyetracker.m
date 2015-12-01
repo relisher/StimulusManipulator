@@ -4,7 +4,7 @@ clear
 import java.io.*;
 import java.net.*;
 import java.lang.*;
-savePath = 'C:\Users\schummerslab\Documents';
+savePath = 'Enter Save Path Here' %'C:\Users\schummerslab\Documents';
 %Screen('Preference', 'SkipSyncTests', 1);
 
 timeAfter = GetSecs * 1000;
